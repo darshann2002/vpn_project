@@ -1,0 +1,9 @@
+{
+  "name": "vpn_project",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/vpn_project/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project vpn_project --web",
+  "targets": {}
+}

@@ -1,0 +1,11 @@
+Gridview.css
+.ant-table {
+    border: 1px solid black;
+  }
+  
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    border: 1px solid black;
+  }
+  
+   
