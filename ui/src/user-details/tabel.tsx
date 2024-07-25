@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Table, Button, Segmented, Input, message } from 'antd';
 import { useNavigate } from 'react-router-dom';
-import { VpnService } from '@vpn-project/shared-services';
 import { EmailModel, ProcessEnum, updateRequest } from '@vpn-project/shared-models';
 import { VpnIdReq } from 'libs/shared-models/src/lib/dto/employee.dto';
 
 const { Search } = Input;
+// import {VpnService} from 'libs/shared-services/src'
 
 const VpnGrid: React.FC = () => {
   const service = new VpnService();
